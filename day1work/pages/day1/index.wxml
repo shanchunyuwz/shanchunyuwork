@@ -1,0 +1,12 @@
+<page>
+  <view wx:for="{{ListDetails}}" class="main">
+     <view class="left">
+        <image src="{{item.img}}" />
+     </view>
+     <view class="right">
+          <text class='one'>{{item.name}}</text>
+          <text class='two'>{{item.author}}</text>
+          <text class='three'>{{item.value}}</text>
+     </view>
+</view>
+</page>

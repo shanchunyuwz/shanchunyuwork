@@ -1,0 +1,60 @@
+<page>
+  <view>
+     <view class="mmm">
+       <swiper
+            indicator-dots="{{indicatorDots}}"
+            circular="{{circular}}"
+            autoplay="{{autoplay}}"
+            interval="{{interval}}"
+            duration="{{duration}}"
+            indicator-active-color="{{indicatoractivecolor}}"
+       >
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                 <image src="{{item}}" class="slide-image" class="imgs"/>
+            </swiper-item>
+              
+        </block>
+          
+       </swiper>
+     </view>
+     <view class="mys">
+        <view class="syl">
+            <icon type="success" size="40" />
+            <span class='biao'>放送表</span>
+        </view>
+        <view class="syl">
+            <icon type="info" size="40" />
+            <span class='biao'>分类</span>
+        </view>
+        <view class="syl">
+            <icon type="clear" size="40" />
+            <span class='biao'>榜单</span>
+        </view>
+        <view class="syl">
+            <icon type="warn" size="40" />
+            <span class='biao'>完结</span>
+        </view>
+     </view>
+     <view class="center">
+       <view class="left">精品佳作</view>
+       <navigator class="right" url="/pages/day1/index" open-type="navigate">查看更多</navigator>
+     </view>
+     <view>
+        <view>
+          <view class='foot'>
+            <view class='footes'>
+              <image src="../../img/4.png" class='moots'></image>
+              <h2>狂想情人</h2>
+              <p>记住了,渣男必须死</p>
+            </view>
+              <view class="footes">
+              <image src="../../img/4.png" class='moots'></image>
+              <h2>狂想情人</h2>
+              <p>记住了,渣男必须死</p>
+            </view>
+          </view>
+        </view>
+     </view>
+  </view>
+</page>
