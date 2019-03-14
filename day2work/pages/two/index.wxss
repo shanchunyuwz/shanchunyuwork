@@ -1,0 +1,64 @@
+/* pages/two/index.wxss */
+.mys{
+  width:100%;
+  padding:10rpx;
+  box-sizing: border-box;
+}
+.mmm{
+  height:360rpx;
+}
+.syl{
+  display: inline-block;
+  width:25%;
+  text-align: center;
+}
+.biao{
+  display: block;
+}
+.center{
+  width:100%;
+  padding:20rpx 26rpx;
+  box-sizing: border-box;
+  display: flex;
+}
+.imgs{
+  width:100%;
+  height:360rpx;
+}
+.left{
+  width:50%;
+  border-left:solid 2px #f90;
+  padding-left:12rpx;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.right{
+  width:50%;
+  text-align: right;
+  font-size:30rpx;
+}
+.foot{
+  width:100%;
+  display: flex;
+  overflow-y: auto;
+}
+.footes{
+  margin:0 6rpx;
+}
+.footes h2{
+  display: block;
+  padding:6rpx 30rpx;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.footes p{
+  display: block;
+  padding-left:30rpx;
+  box-sizing: border-box;
+  font-size:30rpx;
+  line-height:40rpx;
+}
+.moots{
+  width:440rpx;
+  height:280rpx;
+}
