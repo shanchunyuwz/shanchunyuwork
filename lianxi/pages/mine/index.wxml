@@ -1,0 +1,18 @@
+<!--pages/mine/index.wxml-->
+<page>
+    <view class="main">
+        <view class="top">
+            <image src="../../img/4.jpg"/>
+            <text>标记我的生活</text>
+        </view>
+        <button
+              wx:if="{{canIUse}}"
+              open-type="getUserInfo"
+              bindgetuserinfo="bindGetUserInfo"
+              class="register"
+              >授权登录</button>
+        <button bindtap="defaultTap" class="defaultTap">已有账号,手机号登陆</button>
+    </view>
+    
+</page>
+

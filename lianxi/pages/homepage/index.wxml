@@ -1,0 +1,32 @@
+<!--pages/homepage/index.wxml-->
+<page>
+  <view class="main">
+      <view class="title">
+           <input type="text" placeholder="大家都在搜“这厮在诱惑我”"/>
+      </view>
+     <view class="section section_gap">
+        <scroll-view 
+            class="swiper-tap"
+            scroll-x="true">
+            <text bindtap="tuijian">推荐</text>
+            <text bindtap="fujin">附近</text>
+            <text bindtap="shipin">视频</text>
+            <text>美食</text>
+            <text>旅行</text>
+            <text>男士穿搭</text>
+            <text>健身</text>
+        </scroll-view>
+        <view class="center">
+           <view wx:for="{{liststr}}" wx:key="{{item}}">
+                <view class="top">
+                    <image src="{{item.url}}"/>
+                </view>
+                <view class="bottom">
+                    <text>{{item.value}}</text>
+                </view>
+           </view>  
+      </view>
+        </view>
+          
+  </view>  
+</page>

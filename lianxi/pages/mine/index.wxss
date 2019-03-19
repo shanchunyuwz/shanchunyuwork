@@ -1,0 +1,34 @@
+/* pages/mine/index.wxss */
+.main{
+    width: 100%;
+    height:100%;
+}
+.top{
+    width: 100%;
+    padding:100rpx 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.top image{
+    width:100rpx;
+    height:100rpx;
+    border-radius:30rpx;
+    display:block;
+    margin-left:43.5%;
+}
+.top text{
+    font-size:24rpx;
+    color: #9C9C9C;
+}
+.main button{
+    width:86%;
+    border-radius:50rpx;
+    height:90rpx;
+    font-size:36rpx;
+    border:solid 1rpx #ccc;
+}
+.register{
+    margin-bottom:40rpx;
+    background: #FF2744;
+    color: #fff;
+}
