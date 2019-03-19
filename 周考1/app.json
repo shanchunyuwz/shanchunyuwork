@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/main/index",
+    "pages/two/index",
+    "pages/three/index",
+    "pages/four/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5E3862",
+    "navigationBarTitleText": "参观清华",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/main/index.wxml-->
+<page>
+    <view class="main">
+        <view class="title">
+            <image class="" src="../../img/1.png" />
+        </view>
+        <view class='center'>
+              <view class="shan">
+                <text class="cc">校园参观</text>
+                <navigator url="/pages/two/index" open-type="navigate" class='mmm'>预约管理·个人预约</navigator>
+                <text class='mmm'>预约管理·我的预约</text>
+              </view>
+        </view>
+    </view>
+</page>

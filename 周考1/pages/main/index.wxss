@@ -1,0 +1,37 @@
+/* pages/main/index.wxss */
+.main{
+    width: 100%;
+    height: 100%;
+    background: #F2F2F2;
+}
+.title{
+    width: 100%;
+    padding:0 50rpx 30rpx;
+    box-sizing: border-box;
+}
+.title image{
+    width:100%;
+    height:360rpx;
+}
+.center{
+    width:100%;
+    height:300rpx;
+}
+.cc{
+    font-size:40rpx;
+    font-weight: bold;
+    line-height:60rpx;
+}
+.shan{
+    width: 100%;
+    padding:0 30rpx;
+    background: #fff;
+}
+.mmm{
+    width:100%;
+    border-bottom:solid 1px #ccc;
+    padding:0 20rpx;
+
+    box-sizing: border-box;
+    margin-right:10rpx;
+}

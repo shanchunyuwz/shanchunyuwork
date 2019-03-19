@@ -1,0 +1,32 @@
+<!--pages/two/index.wxml-->
+<page>
+    <view class="main">
+        <view class="title">
+            <text class="mmm">习近平</text>
+            <view class="top">
+                <text>居民身份证</text>
+                <text>(3************9)</text>
+            </view>
+        </view>
+          <view class="center">
+            <text class="nnn">预约日期</text>
+             <view class="xxx">
+                   <view class="chun" hover-class='active' wx:for="{{betSallset}}" wx:key="{{item}}" bindtap="appear">
+                 <text class="">{{item.value}}</text>
+                 <text>{{item.acthor}}</text>
+             </view>
+             </view>
+             <view class="shan">
+                 <text class="nnn">入校时间</text>
+                 <view class="mck">
+                       <view wx:for="{{initallset}}" wx:key="{{item}}" class="vueli" hover-class="active">
+                            <text class="">{{item.value}}</text>
+                            <text bindtap="appear">{{item.acthor}}</text>
+                      </view>
+                 </view>
+             </view> 
+        </view>
+         <navigator url="/pages/three/index" open-type="navigate" class="btn">确认</navigator>  
+    </view>
+      
+</page>

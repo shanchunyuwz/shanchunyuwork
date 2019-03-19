@@ -1,0 +1,10 @@
+<!--pages/three/index.wxml-->
+<page>
+    <view class="main">
+        <view class="center">
+            <image src="../../img/4.png"/>
+              <navigator url="/pages/four/index"  class="btn">取消预约</navigator> 
+        </view> 
+      
+    </view>
+</page>
